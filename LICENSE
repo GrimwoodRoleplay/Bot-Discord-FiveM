@@ -1,36 +1,29 @@
-LICENCE D’UTILISATION LIMITÉE – PROJET GRIMWOOD
+LICENCE D’UTILISATION AVEC ATTRIBUTION – PROJET GRIMWOOD
 
 Copyright (c) 2025 - GRIMWOOD
 Tous droits réservés.
 
 1. Objet  
-Le présent logiciel (ci-après “le Logiciel”), incluant notamment le code source, les scripts et la logique du bot Discord FiveM, est mis à disposition en accès public uniquement pour consultation et utilisation personnelle et non commerciale.
+Le présent logiciel (ci-après “le Logiciel”) peut être utilisé librement tant que l’auteur est clairement crédité.
 
-2. Droits accordés  
-L’auteur accorde aux utilisateurs les droits limités suivants :  
-- Consultation du code source.  
-- Exécution du Logiciel exclusivement dans un cadre personnel, non commercial et non public.
+2. Conditions d'utilisation  
+L’utilisateur est autorisé à :  
+- exécuter le Logiciel dans tout contexte (personnel, public, serveur FiveM, bot Discord, etc.)  
+- modifier le Logiciel  
+- redistribuer le Logiciel ou une version modifiée  
 
-3. Restrictions strictes  
-Sauf autorisation écrite expresse de l’auteur, il est strictement interdit :  
-- de modifier, adapter, traduire ou altérer le Logiciel ;  
-- de redistribuer ou partager le Logiciel, qu’il soit modifié ou non ;  
-- d’utiliser le Logiciel à des fins commerciales, professionnelles ou lucratives ;  
-- d’intégrer tout ou partie du Logiciel dans un autre projet, service, ressource ou serveur ;  
-- de créer des œuvres dérivées basées sur le Logiciel ;  
-- d’utiliser le Logiciel dans un cadre public (ex : serveur FiveM ouvert, projet communautaire, etc.) sans autorisation.
+À la condition obligatoire suivante :  
+**L’auteur original "GRIMWOOD" doit être clairement crédité dans toute utilisation, publication, redistribution ou modification du Logiciel.**
+
+3. Restrictions  
+Il est interdit de :  
+- retirer ou masquer la mention de l’auteur ;  
+- suggérer que l’auteur approuve les modifications ou l’usage, sans autorisation explicite.
 
 4. Absence de garantie  
-Le Logiciel est fourni “tel quel”, sans garantie d’aucune sorte, explicite ou implicite.  
-L’auteur ne pourra être tenu responsable de tout dommage direct ou indirect résultant de son utilisation.
+Le Logiciel est fourni “tel quel”, sans aucune garantie d’aucune sorte.  
+L’auteur ne pourra être tenu responsable de tout dommage résultant de son utilisation.
 
 5. Propriété intellectuelle  
-Le Logiciel demeure la propriété exclusive de l’auteur.  
-Aucun droit de propriété ou licence étendue n’est transféré par la présente.  
-Tous les droits non expressément accordés sont réservés.
-
-6. Résiliation  
-Tout non-respect des termes de cette licence entraîne la révocation immédiate du droit d’utilisation du Logiciel, sans préavis.
-
-Pour toute demande d’autorisation spéciale :  
-https://discord.gg/2VszXbZM49
+Le Logiciel demeure la propriété de l’auteur d’origine.  
+L’attribution ne confère aucun droit de propriété supplémentaire.
