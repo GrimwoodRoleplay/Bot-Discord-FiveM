@@ -1,0 +1,25 @@
+        if (args.simple) {
+
+            if (args.image) {
+                if (/^(http[s]?:\/\/.*\.(?:png|jpg|gif|jpeg))/i.test(args.image)) embed.setImage(args.image);
+                else return interaction.reply({ content: "Image link seems to be invalid", ephemeral: true });
+            }
+            if (args.color) {
+                if (/^#[0-9A-F]{6}$/i.test(args.color)) embed.setColor(args.color);
+                else return interaction.reply({ content: "Color is invalid. Provide a hex value (example: #ff22cc)", ephemeral: true });
+            }
+            if (args.thumbnail) {
+                if (/^(http[s]?:\/\/.*\.(?:png|jpg|gif|jpeg))/i.test(args.thumbnail)) embed.setThumbnail(args.thumbnail);
+                else return interaction.reply({ content: "Thumbnail link seems to be invalid", ephemeral: true });
+            }
+            embed.setDescription(args.message.replace(/<br>/ig, "\n"));
+            channel.send({ embeds: [ embed ] });
+        } else if (args.complex) {
+            let embed = args.json;
+            try {
+                embed = JSON.parse(args.json);
+            } catch (e) {
+                return interaction.reply({ content: "JSON seems invalid", ephemeral: true });
+            }
+            channel.send({ embeds: [ embed ] });
+        }
